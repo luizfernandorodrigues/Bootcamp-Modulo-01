@@ -1,0 +1,85 @@
+h1 {
+  text-align: center;
+}
+
+.inputBusca {
+  position: absolute;
+  left: 0px;
+  right: 60px;
+}
+
+.botaoBusca {
+  position: absolute;
+  right: 0px;
+}
+
+.container-principal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.usuarios {
+  display: flex;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.usuarios-filtrados {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+
+  margin-right: 10px;
+}
+
+.estatisticas-usuarios {
+  padding: 25px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 85px;
+  margin-bottom: 100px;
+}
+
+body {
+  padding: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.country-container {
+  display: flex;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.country-list {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-right: 10px;
+}
